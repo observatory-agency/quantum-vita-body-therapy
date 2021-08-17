@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Yeseva One', cursive;
+}
+
+html,
+body,
+p,
+li,
+ol,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

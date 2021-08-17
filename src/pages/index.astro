@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+import Hero from '../components/homepage/Hero.astro';
+import IntroBox from '../components/homepage/IntroBox.astro';
+import About from '../components/homepage/About.astro';
+import TestimonyCTA from '../components/TestimonyCTA.astro';
+import Services from '../components/homepage/Services.vue';
+import CTA from '../components/CTA.astro';
+
+import SwirlLeft from '../components/flourish/SwirlLeft.astro';
+import SwirlRight from '../components/flourish/SwirlRight.astro';
+---
+
+<BaseLayout title="Jersey City Massage Therapist">
+    <Hero />
+    <main class="relative">
+        <IntroBox />
+        <SwirlLeft />
+        <About />
+        <TestimonyCTA author="Jessica S">
+            Hands down the best massage I've ever had. Betsy is a master of her craft and so knowledgeable. The space is super clean with very careful covid precautions. Highly recommend!
+        </TestimonyCTA>
+        <SwirlRight />
+        <Services />
+        <CTA />
+    </main>
+</BaseLayout>

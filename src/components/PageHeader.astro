@@ -1,0 +1,20 @@
+---
+const { title, image } = Astro.props
+---
+<section class="relative">
+    <div class="mx-auto">
+        <div class="relative shadow-xl sm:overflow-hidden">
+            <div class="absolute inset-0">
+                <img class="object-cover w-full h-full" src={`/assets/${image}.jpg`} alt="People
+                working on laptops" />
+            </div>
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-72 lg:px-8">
+                <h1
+                    class="text-4xl text-center text-white sm:text-5xl lg:text-6xl"
+                >
+                    {title}
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
