@@ -1,12 +1,14 @@
 ---
-const {introTitle, } = Astro.props
+const {introTitle, text} = Astro.props
 ---
 
-<section class="max-w-3xl py-12 mx-auto space-y-8 text-center">
+<section class="py-6 space-y-8 text-center content-wrapper lg:py-12">
     <h2 class="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
         { introTitle }
     </h2>
-    <slot />
+    <p class="max-w-3xl mx-auto text-gray-700">
+        {text}
+    </p>
     <div class="flex items-center max-w-sm mx-auto mt-4 space-x-6">
         <hr class="flex-auto border border-secondaryColor">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 29" class="w-10 mx-auto lg:w-12 ">

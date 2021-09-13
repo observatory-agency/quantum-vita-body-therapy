@@ -9,7 +9,7 @@
             </div>
             <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
                 <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
-                    <a :href="item.href" class="text-base text-gray-200 hover:text-gray-900">
+                    <a :href="item.href" class="text-base text-gray-200 hover:text-gray-400">
                         {{ item.name }}
                     </a>
                 </div>

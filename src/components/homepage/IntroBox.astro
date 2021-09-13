@@ -1,7 +1,7 @@
-<section class="relative -mt-32 intro-box">
+<section class="relative lg:-mt-32 intro-box">
     <div class="content-wrapper">
-        <div class="flex py-12 space-x-24">
-            <div class="pr-32 space-y-4 border-r border-secondaryColor">
+        <div class="flex flex-col py-12 space-y-12 lg:space-y-0 lg:space-x-24 lg:flex-row">
+            <div class="space-y-4 lg:pr-32 lg:border-r border-secondaryColor">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12">
                     <circle cx="24" cy="24" r="24" fill="#3F3F46"/>
                     <path fill="#3F3F46" d="M12 12h24v24H12z"/>
@@ -14,7 +14,7 @@
                 </div>
                 <p class="text-gray-600">bodywork@quantumvita.com</p>
             </div>
-            <div class="pr-32 space-y-4 border-r border-secondaryColor">
+            <div class="space-y-4 lg:pr-32 lg:border-r border-secondaryColor">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12">
                     <circle cx="24" cy="24" r="24" fill="#3F3F46"/>
                     <path fill="#3F3F46" d="M12 12h24v24H12z"/>
@@ -40,9 +40,11 @@
     </div>
 </section>
 
-<style>
+<style lang="scss">
     .intro-box {
-        background: rgb(255,255,255);
-        background: linear-gradient(to right, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 80%);
+        @media(min-width: 1024px) {
+            background: rgb(255,255,255);
+            background: linear-gradient(to right, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 80%);
+        }
     }
 </style>

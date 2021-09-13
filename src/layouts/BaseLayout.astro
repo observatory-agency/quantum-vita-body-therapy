@@ -21,14 +21,14 @@ const {title} = Astro.props;
         <meta property="og:url" content="https://quantum-vita-body-therapy.netlify.app/">
         <meta property="og:title" content="Jersey City Massage Therapist | Quantum Vita Body Therapy">
         <meta property="og:description" content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs.">
-        <meta property="og:image" content="/assets/homepage-hero.jpg">
+        <meta property="og:image" content="https://quantumvita.com/assets/homepage-hero.jpg">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://quantum-vita-body-therapy.netlify.app/">
         <meta property="twitter:title" content="Jersey City Massage Therapist | Quantum Vita Body Therapy">
         <meta property="twitter:description" content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs.">
-        <meta property="twitter:image" content="/assets/homepage-hero.jpg">
+        <meta property="twitter:image" content="https://quantumvita.com/assets/homepage-hero.jpg">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,8 +38,8 @@ const {title} = Astro.props;
 
     </head>
     <body class="relative bg-[#F3F4F6]">
-        <Header />
+        <Header client:load />
         <slot />
-        <Footer />
+        <Footer client:visible />
     </body>
 </html>
