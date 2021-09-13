@@ -9,9 +9,10 @@ module.exports = {
         },
         extend: {
             colors: {
-                primaryColor: '#EBD07F',
-                primaryColorDark: '#DABB5D',
-                secondaryColor: '#1E1E24',
+                primaryColor: '#CC5500',
+                primaryColorDark: '#A34400',
+                secondaryColor: '#F0E2A3',
+                primaryBlack: '#121619',
                 headerText: '#1E1E24',
                 subHeadline: '#0f3433',
                 cardParagraph: '#e8e4e6'

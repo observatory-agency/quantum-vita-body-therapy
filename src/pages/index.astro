@@ -14,15 +14,15 @@ import SwirlRight from '../components/flourish/SwirlRight.astro';
 
 <BaseLayout title="Jersey City Massage Therapist">
     <Hero />
-    <main class="relative">
-        <IntroBox />
+    <IntroBox />
+    <main class="relative overflow-hidden">
         <SwirlLeft />
         <About />
-        <TestimonyCTA author="Jessica S">
+        <Services />
+        <TestimonyCTA author="Jessica S" alt="Quantum Vita Body Therapy Waiting Room">
             Hands down the best massage I've ever had. Betsy is a master of her craft and so knowledgeable. The space is super clean with very careful covid precautions. Highly recommend!
         </TestimonyCTA>
         <SwirlRight />
-        <Services />
         <CTA />
     </main>
 </BaseLayout>

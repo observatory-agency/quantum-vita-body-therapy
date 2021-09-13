@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 
 import PageHeader from '../components/PageHeader.astro'
 import PageIntro from '../components/PageIntro.astro'
+import ContentLeft from '../components/ContentLeft.astro'
+import ContentRight from '../components/ContentRight.astro'
 import CTA from '../components/CTA.astro';
 
 let title = 'My Astro Site';
@@ -13,5 +15,63 @@ let title = 'My Astro Site';
     <PageIntro introTitle="Get in Touch">
         <p>Mea ei paulo debitis affert nominati usu eu, et ius dicta detraxit probatus facete nusquam deleniti ex nec te sit tale atqui abhorreant luptatum conclu</p>
     </PageIntro>
+    <main>
+        <ContentLeft
+            header="Anma (Japanese Deep Tissue)"
+            text="You will undergo an invigorating massage that reaches the deep layers of muscles and muscle tissue. Toxins will be release as the therapist applies deep finger and elbow-forearm pressure to the select muscles. You will experience a feeling of general vitality and well being."
+            img="anma"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentRight
+            header="Aromatherapy"
+            text="Fine oils are applied to the body by the therapist and you will enjoy the relaxing aroma as the effect of the massage and aroma has a positive effect on the body, mind and soul. You will feel a sense of reduced anxiety and an improvement in wellbeing."
+            img="aromatherapy"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentLeft
+            header="Manual Lymph Drainage"
+            text="This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. This method can be effectively used for cancer patients who have undergone a lymph node dissection with the possible outcome of lymphodema."
+            img="manual-lymph-drainage"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentRight
+            header="Pre-Postnatal Massage"
+            text="This massage therapy supports the physiologic, structural and emotional well-being of both mother and fetus. Various forms of massage therapy  including swedish, deep tissue, neuromuscular, movement and Oriental-based therapies may be applied throughout pregnancy as well as during labor and the postpartum period."
+            img="pre-postnatal-massage"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentLeft
+            header="Neuromuscular"
+            text="This technique will relive you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. The result will be an Improvement in muscle and joint mobility and balance in the musculoskeletal system."
+            img="neuromuscular"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentRight
+            header="Hot Stone Therapy"
+            text="Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. The therapist uses an assortment of stroking movements, kneading and pressure in order to increase blood flow and to reach the deeper tissues."
+            img="hot-stone-therapy"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentLeft
+            header="Swedish"
+            text="This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin. Overall your nerves will be soothed and your feeling of wellbeing enchanted."
+            img="swedish"
+            priceShort="85"
+            priceLong="125"
+        />
+        <ContentRight
+            header="Reflexology"
+            text="Reflexology the application of pressure, stretch and movement to the feet and hands to effect corresponding parts of the body. Reflexologists view the feet and hands as a reflexion of the body. By applying technique, a reflexologist can break up patterns of stress in other parts of the body."
+            img="reflexology"
+            priceShort="85"
+            priceLong="125"
+        />
+    </main>
     <CTA />
 </BaseLayout>

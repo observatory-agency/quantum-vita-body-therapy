@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-secondaryColor">
+    <footer class="bg-primaryBlack">
         <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-8">
                 <a href="/">
@@ -25,7 +25,7 @@
                     <component :is="item.icon" class="w-6 h-6" aria-hidden="true" />
                 </a>
             </div>
-            <p class="mt-8 text-sm text-center text-gray-600">
+            <p class="mt-8 text-sm text-center text-gray-400">
                 &copy; 2021 Quantum Vita LLC. All rights reserved.
             </p>
         </div>

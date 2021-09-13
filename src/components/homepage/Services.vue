@@ -1,5 +1,5 @@
 <template>
-    <section class="relative z-50 py-32 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section class="relative z-50 py-24 content-wrapper">
         <h2 class="text-4xl text-center">Quantum Vita’s Services</h2>
         <p class="mt-4 text-lg text-center text-gray-700">
             Come Experience The Secret of Relaxation
@@ -100,6 +100,6 @@ export default {
 
 <style scoped>
 .chill-box {
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08), 8px 8px 2px rgba(235, 208, 127, 0.7);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08), 8px 8px 2px rgba(240, 226, 163, 0.65);
 }
 </style>

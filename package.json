@@ -4,16 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
     "@astrojs/renderer-vue": "^0.1.7",
-    "astro": "^0.18.13",
-    "tailwindcss": "^2.2.7"
+    "astro": "^0.20.5",
+    "tailwindcss": "^2.2.15"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.4.0",
-    "@heroicons/vue": "^1.0.3",
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/line-clamp": "^0.2.1",
