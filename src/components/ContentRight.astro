@@ -1,5 +1,5 @@
 ---
-let {header, text, img, priceShort, priceLong} = Astro.props
+let {header, text, img, priceShort, priceLong, priceLonger} = Astro.props
 ---
 
 <div class="">
@@ -15,6 +15,7 @@ let {header, text, img, priceShort, priceLong} = Astro.props
             <div class="space-y-3">
                 <p class="text-2xl text-gray-800 font-display">60 minutes - ${priceShort}</p>
                 <p class="text-2xl text-gray-800 font-display">90 minutes - ${priceLong}</p>
+                <p class="text-2xl text-gray-800 font-display">120 minutes - ${priceLonger}</p>
             </div>
         </div>
     </div>

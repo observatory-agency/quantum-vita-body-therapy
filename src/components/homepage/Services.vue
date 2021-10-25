@@ -25,6 +25,12 @@
                             >${{ service.priceTwo }}</span
                         >
                     </p>
+                    <p class="text-lg text-gray-700 font-display">
+                        120 minutes:
+                        <span class="text-xl text-gray-800 font-display"
+                            >${{ service.priceThree }}</span
+                        >
+                    </p>
                 </div>
             </div>
         </div>
@@ -40,57 +46,65 @@ export default {
                     title: 'Anma (Japanese Deep Tissue)',
                     description:
                         'You will undergo an invigorating massage that reaches the deep layers of muscles and muscle tissue. You will experience a feeling of general vitality and well being.',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Aromatherapy',
                     description:
                         'Fine oils are applied to the body by the therapist and you will enjoy the relaxing aroma as the effect of the massage and aroma has a positive effect on the body, mind and soul.',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Manual Lymph Drainage',
                     description:
                         'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Pre-Postnatal Massage',
                     description:
                         'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Neuromuscular',
                     description:
                         'This technique will relive you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. ',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Hot Stone Therapy',
                     description:
                         'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. ',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Swedish',
                     description:
                         'This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin.',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 },
                 {
                     title: 'Reflexology',
                     description:
                         'Reflexology the application of pressure, stretch and movement to the feet and hands to effect corresponding parts of the body. Reflexologists view the feet and hands as a reflection of the body.',
-                    priceOne: '85',
-                    priceTwo: '125'
+                    priceOne: '110',
+                    priceTwo: '165',
+                    priceThree: '240'
                 }
             ]
         };
