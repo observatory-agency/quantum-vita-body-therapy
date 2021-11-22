@@ -3,7 +3,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Yeseva One', cursive;
+  font-family: 'Yeseva One', cursive;
 }
 
 html,
@@ -12,7 +12,7 @@ p,
 li,
 ol,
 span {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @tailwind base;
@@ -20,7 +20,7 @@ span {
 @tailwind utilities;
 
 @layer components {
-    .content-wrapper {
-        @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
-    }
+  .content-wrapper {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
 }

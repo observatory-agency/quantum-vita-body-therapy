@@ -1,3 +1,10 @@
 [build]
   command = "yarn build"
   publish = "dist"
+
+[dev]
+  command = "yarn dev"
+  targetPort = 3000
+  port = 8888
+  publish = "dist"
+  framework = "#custom"

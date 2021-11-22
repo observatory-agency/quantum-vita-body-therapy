@@ -22,7 +22,7 @@
           <a
             href="/contact"
             class="hidden px-4 py-2 text-base font-medium text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
-            >Make your appointment</a
+            >Request an appointment</a
           >
           <div class="lg:hidden">
             <button
@@ -113,7 +113,7 @@
                   <a
                     href="/contact"
                     class="w-full py-2 text-lg text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
-                    >Make your appointment</a
+                    >Request an appointment</a
                   >
                 </div>
               </div>
@@ -128,7 +128,7 @@
 <script>
 const navigation = [
   { name: 'Services', href: '/services' },
-  { name: 'About', href: '/about' },
+  //   { name: 'About', href: '/about' },
   { name: 'FAQs', href: '/faqs' }
 ];
 
