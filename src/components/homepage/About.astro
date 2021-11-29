@@ -1,6 +1,6 @@
 <section class="relative z-50 py-8 lg:py-32">
     <div class="relative mx-auto content-wrapper">
-        <img src="/assets/welcome.jpg" alt="Inside of the massage studio" class="max-w-2xl">
+        <img src="/assets/welcome.jpg" alt="Inside of the massage studio" class="lg:max-w-2xl">
         <div class="max-w-2xl p-8 space-y-4 bg-white rounded-sm lg:absolute right-16 top-16 chill-box">
             <h3 class="text-3xl text-headerText">Honest care for body and mind</h3>
             <hr class="w-12 border-b-2 rounded-full border-secondaryColor">
@@ -9,8 +9,10 @@
     </div>
 </section>
 
-<style>
+<style lang="scss">
     .chill-box {
-        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08), 16px 16px 2px rgba(240, 226, 163, 0.65);
+        @media (min-width: 640px) {
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08), 16px 16px 2px rgba(240, 226, 163, 0.65);
+        }
     }
 </style>

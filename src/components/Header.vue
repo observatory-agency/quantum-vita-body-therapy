@@ -66,7 +66,7 @@
         >
           <div
             v-show="mobileMenuFlag"
-            class="bg-white divide-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-gray-50"
+            class="divide-y-2 rounded-lg shadow-lg bg-primaryBlack ring-1 ring-black ring-opacity-5 divide-gray-50"
           >
             <div class="px-5 pt-5 pb-6">
               <div class="flex items-center justify-between">
@@ -104,18 +104,17 @@
                     v-for="link in navigation"
                     :key="link.name"
                     :href="link.href"
-                    class="block text-lg text-gray-700 hover:text-gray-900"
+                    class="block text-lg text-white hover:text-gray-100"
                   >
                     {{ link.name }}
                   </a>
                 </nav>
-                <div class="">
-                  <a
-                    href="/contact"
-                    class="w-full py-2 text-lg text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
-                    >Request an appointment</a
-                  >
-                </div>
+                <button
+                  href="/contact"
+                  class="w-full py-2 text-lg text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
+                >
+                  Request an appointment
+                </button>
               </div>
             </div>
           </div>
