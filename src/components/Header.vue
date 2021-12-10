@@ -127,8 +127,9 @@
 <script>
 const navigation = [
   { name: 'Services', href: '/services' },
-  //   { name: 'About', href: '/about' },
-  { name: 'FAQs', href: '/faqs' }
+  { name: 'About', href: '/about' },
+  { name: 'FAQs', href: '/faqs' },
+  { name: 'Gallery', href: '/gallery' }
 ];
 
 export default {
