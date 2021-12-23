@@ -48,17 +48,17 @@ export default {
           title: 'Aromatherapy',
           description:
             'Fine oils are applied to the body by the therapist and you will enjoy the relaxing aroma as the effect of the massage and aroma has a positive effect on the body, mind and soul.',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '115',
+          priceTwo: '170',
+          priceThree: '245'
         },
         {
           title: 'Manual Lymph Drainage',
           description:
             'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '120',
+          priceTwo: '175',
+          priceThree: '250'
         },
         {
           title: 'Pre-Postnatal Massage',
@@ -80,9 +80,9 @@ export default {
           title: 'Hot Stone Therapy',
           description:
             'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. ',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '120',
+          priceTwo: '175',
+          priceThree: '250'
         },
         {
           title: 'Swedish',
