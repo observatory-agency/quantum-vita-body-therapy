@@ -36,8 +36,10 @@ const {title} = Astro.props;
 
         <link rel="stylesheet" type="text/css" href={Astro.resolve("../style/global.css")}>
 
+        <script defer data-domain="quantumvita.com" src="https://plausible.io/js/plausible.js"></script>
+
     </head>
-    <body class="relative bg-[#F3F4F6]">
+    <body class="relative bg-[#e5e7eb]">
         <Header client:load />
         <slot />
         <Footer client:visible />

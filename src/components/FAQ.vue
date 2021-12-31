@@ -100,7 +100,7 @@ const faqs = [
   {
     question: "What is 'Therapeutic Massage?",
     answer:
-      'Massage therapy is the manipulation of soft tissue. Other terms included in the definition are effleurage (stroking), petrissage (kneading). tapotement (percussion). compression. Vibration. friction, nerve strokes. and Swedish gymnastics. either by hand or with mechanical or electrical apparatus for the purpose of body massage. Massage therapy can include the use of oils, Lotions, salt glows, heat lamps, hot or cold packs and tub, shower or cabinet baths.'
+      'Massage therapy is the manipulation of soft tissue. Other terms included in the definition are effleurage (stroking), petrissage (kneading), tapotement (percussion), compression, vibration, friction, nerve strokes, and Swedish gymnastics. Either by hand or with mechanical or electrical apparatus for the purpose of body massage. Massage therapy can include the use of oils, lotions, salt glows, heat lamps, hot or cold packs and tub, shower or cabinet baths.'
   }
 ];
 

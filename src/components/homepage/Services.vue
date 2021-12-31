@@ -53,20 +53,20 @@ export default {
           priceThree: '245'
         },
         {
-          title: 'Manual Lymph Drainage',
+          title: 'Hot Stone Therapy',
           description:
-            'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
+            'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. ',
           priceOne: '120',
           priceTwo: '175',
           priceThree: '250'
         },
         {
-          title: 'Pre-Postnatal Massage',
+          title: 'Manual Lymph Drainage (MLD)',
           description:
-            'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+            'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. This method can be effectively used for cancer patients who have undergone a lymph node dissection with the possible outcome of lymphodema.',
+          priceOne: '120',
+          priceTwo: '175',
+          priceThree: '250'
         },
         {
           title: 'Neuromuscular',
@@ -77,17 +77,9 @@ export default {
           priceThree: '240'
         },
         {
-          title: 'Hot Stone Therapy',
+          title: 'Prenatal & Postpartum Massage',
           description:
-            'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. ',
-          priceOne: '120',
-          priceTwo: '175',
-          priceThree: '250'
-        },
-        {
-          title: 'Swedish',
-          description:
-            'This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin.',
+            'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
           priceOne: '110',
           priceTwo: '165',
           priceThree: '240'
@@ -96,6 +88,14 @@ export default {
           title: 'Reflexology',
           description:
             'Reflexology the application of pressure, stretch and movement to the feet and hands to effect corresponding parts of the body. Reflexologists view the feet and hands as a reflection of the body.',
+          priceOne: '99',
+          priceTwo: '149',
+          priceThree: '198'
+        },
+        {
+          title: 'Swedish',
+          description:
+            'This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin.',
           priceOne: '110',
           priceTwo: '165',
           priceThree: '240'
