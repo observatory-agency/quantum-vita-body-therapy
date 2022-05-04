@@ -25,6 +25,9 @@
           <component :is="item.icon" class="w-6 h-6" aria-hidden="true" />
         </a>
       </div>
+      <div class="flex justify-center mt-8">
+        <img class="w-auto h-20 mx-auto" src="/assets/amta-logo.png" alt="AMTA Logo" />
+      </div>
       <p class="mt-8 text-sm text-center text-gray-400">
         &copy; {{ year }} Quantum Vita LLC. All rights reserved.
       </p>

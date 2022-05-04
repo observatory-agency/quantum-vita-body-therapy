@@ -10,7 +10,7 @@ import CTA from '../components/CTA.astro';
 
 <BaseLayout title="Services">
     <PageHeader title="Services" image="services-hero" />
-    <PageIntro introTitle="Check out our available services"></PageIntro>
+    <PageIntro introTitle="Relaxation is a call away"></PageIntro>
     <main>
         <ContentLeft
             header="Anma (Japanese Deep Tissue)"
@@ -28,9 +28,25 @@ import CTA from '../components/CTA.astro';
             priceLong="165"
             priceLonger="240"
         />
-        <ContentLeft
+        <div>
+            <div class="grid items-start justify-center gap-12 py-12 lg:py-24 lg:grid-cols-2 content-wrapper">
+                <div class="space-y-8">
+                    <h3 class="text-2xl text-gray-800">Cupping Therapy</h3>
+                    <p class="max-w-lg text-lg text-gray-700">
+                        Cupping is a type of alternative therapy that involves placing cups on the skin to create suction. This suction is thought to improve the flow of energy in the body and facilitate healing. Cupping increases blood circulation to the area where the cups are placed. This may relieve muscle tension, which can improve overall blood flow and promote cell repair. It may also help form new connective tissues and create new blood vessels in the tissue.
+                    </p>
+                    <div class="space-y-3">
+                        <p class="text-2xl text-gray-800 font-display">35 minutes - $60</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="/assets/services/manual-lymph-drainage.jpg" alt="Manual Lymph Drainage" class="shadow-md">
+                </div>
+            </div>
+        </div>
+        <ContentRight
             header="Hot Stone Therapy"
-            text="Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. The therapist uses an assortment of stroking movements, kneading and pressure in order to increase blood flow and to reach the deeper tissues."
+            text="This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session. Stone massages are primarily used to alleviate physical pain issues, however, are also used to promote emotional and spiritual wellbeing in practice."
             img="hot-stone-therapy"
             priceShort="110"
             priceLong="165"
@@ -77,6 +93,14 @@ import CTA from '../components/CTA.astro';
             priceLonger="240"
         />
         <ContentRight
+            header="Sports Massage Therapy"
+            text="Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. The therapist uses an assortment of stroking movements, kneading and pressure in order to increase blood flow and to reach the deeper tissues."
+            img="swedish"
+            priceShort="110"
+            priceLong="165"
+            priceLonger="240"
+        />
+        <ContentLeft
             header="Swedish"
             text="This method will relax your muscles and increase oxygen flow in your blood. Your stress level will be reduced as you experience the gliding strokes kneading and tapping of the skin. Overall, your nerves will be soothed and your feeling of wellbeing will be enhanced."
             img="swedish"

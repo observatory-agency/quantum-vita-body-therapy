@@ -13,15 +13,19 @@
         <h4 class="text-xl text-gray-800">{{ service.title }}</h4>
         <p class="text-gray-600">{{ service.description }}</p>
         <div class="flex items-center space-x-6">
-          <p class="text-lg text-gray-700 font-display">
+          <p v-if="service.priceMini" class="text-lg text-gray-700 font-display">
+            35 minutes:
+            <span class="text-xl text-gray-800 font-display">${{ service.priceMini }}</span>
+          </p>
+          <p v-if="service.priceOne" class="text-lg text-gray-700 font-display">
             60 minutes:
             <span class="text-xl text-gray-800 font-display">${{ service.priceOne }}</span>
           </p>
-          <p class="text-lg text-gray-700 font-display">
+          <p v-if="service.priceTwo" class="text-lg text-gray-700 font-display">
             90 minutes:
             <span class="text-xl text-gray-800 font-display">${{ service.priceTwo }}</span>
           </p>
-          <p class="text-lg text-gray-700 font-display">
+          <p v-if="service.priceThree" class="text-lg text-gray-700 font-display">
             120 minutes:
             <span class="text-xl text-gray-800 font-display">${{ service.priceThree }}</span>
           </p>
@@ -51,6 +55,12 @@ export default {
           priceOne: '115',
           priceTwo: '170',
           priceThree: '245'
+        },
+        {
+          title: 'Cupping Therapy',
+          description:
+            'Cupping is a type of alternative therapy that involves placing cups on the skin to create suction. This suction is thought to improve the flow of energy in the body and facilitate healing. Cupping increases blood circulation to the area where the cups are placed. This may relieve muscle tension, which can improve overall blood flow and promote cell repair.',
+          priceMini: '60'
         },
         {
           title: 'Hot Stone Therapy',
@@ -91,6 +101,14 @@ export default {
           priceOne: '99',
           priceTwo: '149',
           priceThree: '198'
+        },
+        {
+          title: 'Sports Massage Therapy',
+          description:
+            'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries.',
+          priceOne: '110',
+          priceTwo: '165',
+          priceThree: '240'
         },
         {
           title: 'Swedish',
