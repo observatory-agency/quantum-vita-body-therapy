@@ -13,6 +13,7 @@
               :key="link.name"
               :href="link.href"
               class="text-lg text-white transition-colors transform hover:text-primaryColor"
+              :class="{ 'text-primaryColor': link.href === currenteRoute }"
             >
               {{ link.name }}
             </a>
@@ -126,16 +127,17 @@
 
 <script>
 const navigation = [
-  { name: 'Services', href: '/services' },
-  { name: 'About', href: '/about' },
-  { name: 'FAQs', href: '/faqs' },
-  { name: 'Gallery', href: '/gallery' }
+  { name: 'Services', href: '/services', active: false },
+  { name: 'About', href: '/about', active: false },
+  { name: 'FAQs', href: '/faqs', active: false },
+  { name: 'Gallery', href: '/gallery', active: false }
 ];
 
 export default {
   data() {
     return {
-      mobileMenuFlag: false
+      mobileMenuFlag: false,
+      currentPage: ''
     };
   },
   methods: {
@@ -144,6 +146,11 @@ export default {
     },
     closeMobileMenu() {
       this.mobileMenuFlag = false;
+    }
+  },
+  computed: {
+    currenteRoute() {
+      return (this.currentPage = window.location.pathname);
     }
   },
   setup() {
