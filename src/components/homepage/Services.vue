@@ -65,7 +65,7 @@ export default {
         {
           title: 'Hot Stone Therapy',
           description:
-            'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. ',
+            'This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session.',
           priceOne: '120',
           priceTwo: '175',
           priceThree: '250'
