@@ -89,7 +89,7 @@ export default {
         {
           title: 'Prenatal & Postpartum Massage',
           description:
-            'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. ',
+            'This massage therapy supports the physiological, structural and emotional wellbeing of both mother and fetus.',
           priceOne: '110',
           priceTwo: '165',
           priceThree: '240'
