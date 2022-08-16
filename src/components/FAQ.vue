@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'What studies have been done on massage therapy?',
     answer:
-      'Massage has been studied for its use with premature infants, adults who have recently experienced a heart attack or stroke, athletes who desire to increase their athletic performance and shorten recuperation time, victims of sexual abuse, grieving patients and those who have lost limbs or experience unusual pais. Currently, the effects of massage are being studied for its use in familial relations and in dealing with the separation felt when children become teenagers.'
+      'Massage has been studied for its use with premature infants, adults who have recently experienced a heart attack or stroke, athletes who desire to increase their athletic performance and shorten recuperation time, victims of sexual abuse, grieving patients and those who have lost limbs or experience unusual pains. Currently, the effects of massage are being studied for its use in familial relations and in dealing with the separation felt when children become teenagers.'
   },
   {
     question: "What is 'Therapeutic Massage?",
