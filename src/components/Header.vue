@@ -112,7 +112,7 @@
                 </nav>
                 <a
                   href="/contact"
-                  class="w-full py-2 text-lg text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
+                  class="block w-full py-2 pl-2 text-lg text-gray-100 transition-all transform border border-transparent rounded-md lg:inline-block bg-primaryColor hover:bg-primaryColorDark"
                 >
                   Request an appointment
                 </a>
