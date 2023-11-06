@@ -1,13 +1,8 @@
-export default {
-  pages: './src/pages',
-  dist: './dist',
-  public: './public',
-  buildOptions: {
-    // site: 'http://example.com',           // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
-    sitemap: true
-  },
-  devOptions: {
-    tailwindConfig: './tailwind.config.js'
-  },
-  renderers: ['@astrojs/renderer-vue']
-};
+import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import vue from '@astrojs/vue';
+
+// https://astro.build/config
+export default defineConfig({
+  integrations: [tailwind(), vue()]
+});
