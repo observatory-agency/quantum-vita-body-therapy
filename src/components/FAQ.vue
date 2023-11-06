@@ -18,7 +18,7 @@
                   {{ faq.question }}
                 </span>
                 <span class="flex items-center ml-6 h-7">
-                  <ChevronDownIcon
+                  <ChevronUpIcon
                     :class="[open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform']"
                     aria-hidden="true"
                   />
@@ -39,7 +39,7 @@
 
 <script>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
-import { ChevronDownIcon } from '@heroicons/vue/outline';
+import { ChevronUpIcon } from '@heroicons/vue/20/solid';
 
 const faqs = [
   {
@@ -109,7 +109,7 @@ export default {
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
-    ChevronDownIcon
+    ChevronUpIcon
   },
   setup() {
     return {
