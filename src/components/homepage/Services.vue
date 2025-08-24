@@ -1,9 +1,7 @@
 <template>
   <section class="relative z-50 py-8 sm:py-24 content-wrapper">
     <h2 class="text-4xl text-center">Quantum Vita’s Services</h2>
-    <p class="mt-4 text-lg text-center text-gray-700">
-      Come Experience The Secret of Relaxation
-    </p>
+    <p class="mt-4 text-lg text-center text-gray-700">Come Experience The Secret of Relaxation</p>
     <div class="grid gap-12 mt-16 lg:grid-cols-2">
       <div
         v-for="service in services"
@@ -46,7 +44,7 @@ export default {
             'You will undergo an invigorating massage that reaches the deep layers of muscles and muscle tissue. You will experience a feeling of general vitality and well being.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Aromatherapy',
@@ -54,13 +52,13 @@ export default {
             'Fine oils are applied to the body by the therapist and you will enjoy the relaxing aroma as the effect of the massage and aroma has a positive effect on the body, mind and soul.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Cupping Therapy',
           description:
             'Cupping is a type of alternative therapy that involves placing cups on the skin to create suction. This suction is thought to improve the flow of energy in the body and facilitate healing. Cupping increases blood circulation to the area where the cups are placed. This may relieve muscle tension, which can improve overall blood flow and promote cell repair.',
-          priceMini: '60'
+          priceMini: '60',
         },
         {
           title: 'Hot Stone Therapy',
@@ -68,7 +66,7 @@ export default {
             'This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Manual Lymph Drainage (MLD)',
@@ -76,7 +74,7 @@ export default {
             'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. This method can be effectively used for cancer patients who have undergone a lymph node dissection with the possible outcome of lymphodema.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Neuromuscular',
@@ -84,7 +82,7 @@ export default {
             'This technique will relive you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. ',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Prenatal & Postpartum Massage',
@@ -92,7 +90,7 @@ export default {
             'This massage therapy supports the physiological, structural and emotional wellbeing of both mother and fetus.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Reflexology',
@@ -100,7 +98,7 @@ export default {
             'Reflexology the application of pressure, stretch and movement to the feet and hands to effect corresponding parts of the body. Reflexologists view the feet and hands as a reflection of the body.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '198'
+          priceThree: '260',
         },
         {
           title: 'Sports Massage Therapy',
@@ -108,7 +106,7 @@ export default {
             'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
+          priceThree: '260',
         },
         {
           title: 'Swedish',
@@ -116,11 +114,11 @@ export default {
             'This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin.',
           priceOne: '130',
           priceTwo: '190',
-          priceThree: '260'
-        }
-      ]
+          priceThree: '260',
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

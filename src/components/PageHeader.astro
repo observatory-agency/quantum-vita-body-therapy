@@ -1,20 +1,25 @@
 ---
-const { title, image } = Astro.props
+const { title, image } = Astro.props;
 ---
+
 <section class="relative page-hero">
-    <div class="mx-auto">
-        <div class="relative shadow-xl sm:overflow-hidden">
-            <div class="absolute inset-0">
-                <img class="object-cover w-full h-full" src={`/assets/${image}.jpg`} alt="People
-                working on laptops" />
-            </div>
-            <div class="relative flex flex-col items-center max-w-5xl px-4 pt-32 pb-24 mx-auto sm:px-6 lg:py-56">
-                <h1
-                    class="text-4xl text-center text-white sm:text-5xl lg:text-6xl"
-                >
-                    {title}
-                </h1>
-            </div>
-        </div>
+  <div class="mx-auto">
+    <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          class="object-cover w-full h-full"
+          src={`/assets/${image}.jpg`}
+          alt="People
+                working on laptops"
+        />
+      </div>
+      <div
+        class="flex relative flex-col items-center px-4 pt-32 pb-24 mx-auto max-w-5xl sm:px-6 lg:py-56"
+      >
+        <h1 class="text-4xl text-center text-white sm:text-5xl lg:text-6xl">
+          {title}
+        </h1>
+      </div>
     </div>
+  </div>
 </section>

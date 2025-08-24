@@ -1,21 +1,28 @@
 ---
 import Button from '../../components/Button.astro';
 ---
+
 <section class="page-hero">
-    <div class="mx-auto">
-        <div class="relative shadow-xl sm:overflow-hidden">
-            <div class="absolute inset-0">
-                <img class="object-cover w-full h-full" src="/assets/homepage-hero.jpg" alt="Woman getting a massage at Quantum Vita Body Therapy" />
-            </div>
-            <div class="relative flex flex-col items-center max-w-3xl px-4 pt-32 pb-24 mx-auto sm:px-6 lg:py-72">
-                <p class="text-lg font-light text-center text-gray-100 lg:text-2xl">Welcome to Quantum Vita Body Therapy</p>
-                <h1
-                    class="mt-2 mb-10 text-3xl text-center text-white sm:text-4xl lg:text-6xl"
-                >
-                    Relaxation &amp; Soothing Treatments
-                </h1>
-                <Button />
-            </div>
-        </div>
+  <div class="mx-auto">
+    <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          class="object-cover w-full h-full"
+          src="/assets/homepage-hero.jpg"
+          alt="Woman getting a massage at Quantum Vita Body Therapy"
+        />
+      </div>
+      <div
+        class="flex relative flex-col items-center px-4 pt-32 pb-24 mx-auto max-w-3xl sm:px-6 lg:py-72"
+      >
+        <p class="text-lg font-light text-center text-gray-100 lg:text-2xl">
+          Welcome to Quantum Vita Body Therapy
+        </p>
+        <h1 class="mt-2 mb-10 text-3xl text-center text-white sm:text-4xl lg:text-6xl">
+          Relaxation &amp; Soothing Treatments
+        </h1>
+        <Button />
+      </div>
     </div>
+  </div>
 </section>

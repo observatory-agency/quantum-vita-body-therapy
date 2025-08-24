@@ -1,111 +1,127 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-import PageHeader from '../components/PageHeader.astro'
-import PageIntro from '../components/PageIntro.astro'
-import ContentLeft from '../components/ContentLeft.astro'
-import ContentRight from '../components/ContentRight.astro'
+import PageHeader from '../components/PageHeader.astro';
+import PageIntro from '../components/PageIntro.astro';
+import ContentLeft from '../components/ContentLeft.astro';
+import ContentRight from '../components/ContentRight.astro';
 import CTA from '../components/CTA.astro';
 ---
 
 <BaseLayout title="Services">
-    <PageHeader title="Services" image="services-hero" />
-    <PageIntro introTitle="Relaxation is a call away"></PageIntro>
-    <main>
-        <ContentLeft
-            header="Anma (Japanese Deep Tissue)"
-            text="You will undergo an invigorating massage that reaches deep layers of muscles and muscle tissue. Toxins will be released as the therapist applies deep finger and elbow-forearm pressure to the select muscles. You will experience a feeling of general vitality and well being."
-            img="anma"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <ContentRight
-            header="Aromatherapy"
-            text="Fine oils are applied to your body by the therapist. You will enjoy the relaxing aroma, as the effect of the massage and the aroma will have a positive effect on the mind, body and soul. You will feel a sense of reduced anxiety and an improvement in well being."
-            img="aromatherapy"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <div class="bg-[#FCF8ED]">
-            <div class="grid items-start justify-center gap-12 py-12 lg:py-24 lg:grid-cols-2 content-wrapper">
-                <div class="space-y-8">
-                    <h3 class="text-2xl text-gray-800">Cupping Therapy</h3>
-                    <p class="max-w-lg text-lg text-gray-700">
-                        Cupping is a type of alternative therapy that involves placing cups on the skin to create suction. This suction is thought to improve the flow of energy in the body and facilitate healing. Cupping increases blood circulation to the area where the cups are placed. This may relieve muscle tension, which can improve overall blood flow and promote cell repair. It may also help form new connective tissues and create new blood vessels in the tissue.
-                    </p>
-                    <div class="space-y-3">
-                        <p class="text-2xl text-gray-800 font-display">35 minutes - $60</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/assets/services/cupping.jpg" alt="Cupping" class="shadow-md">
-                </div>
-            </div>
+  <PageHeader title="Services" image="services-hero" />
+  <PageIntro introTitle="Relaxation is a call away" />
+  <main>
+    <ContentLeft
+      header="Anma (Japanese Deep Tissue)"
+      text="You will undergo an invigorating massage that reaches deep layers of muscles and muscle tissue. Toxins will be released as the therapist applies deep finger and elbow-forearm pressure to the select muscles. You will experience a feeling of general vitality and well being."
+      img="anma"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <ContentRight
+      header="Aromatherapy"
+      text="Fine oils are applied to your body by the therapist. You will enjoy the relaxing aroma, as the effect of the massage and the aroma will have a positive effect on the mind, body and soul. You will feel a sense of reduced anxiety and an improvement in well being."
+      img="aromatherapy"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <div class="bg-[#FCF8ED]">
+      <div
+        class="grid gap-12 justify-center items-start py-12 lg:py-24 lg:grid-cols-2 content-wrapper"
+      >
+        <div class="space-y-8">
+          <h3 class="text-2xl text-gray-800">Cupping Therapy</h3>
+          <p class="max-w-lg text-lg text-gray-700">
+            Cupping is a type of alternative therapy that involves placing cups on the skin to
+            create suction. This suction is thought to improve the flow of energy in the body and
+            facilitate healing. Cupping increases blood circulation to the area where the cups are
+            placed. This may relieve muscle tension, which can improve overall blood flow and
+            promote cell repair. It may also help form new connective tissues and create new blood
+            vessels in the tissue.
+          </p>
+          <div class="space-y-3">
+            <p class="text-2xl text-gray-800 font-display">35 minutes - $60</p>
+          </div>
         </div>
-        <ContentRight
-            header="Hot Stone Therapy"
-            text="This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session. Stone massages are primarily used to alleviate physical pain issues, however, are also used to promote emotional and spiritual wellbeing in practice."
-            img="hot-stone-therapy"
-            priceLong="165"
-        />
-        <div class="bg-[#FCF8ED]">
-            <div class="grid items-start justify-center gap-12 py-12 lg:py-24 lg:grid-cols-2 content-wrapper">
-                <div class="space-y-8">
-                    <h3 class="text-2xl text-gray-800">Manual Lymph Drainage</h3>
-                    <p class="max-w-lg text-lg text-gray-700">
-                        This technique will allow fluids to flow from the lymphatic system. This will help remove toxins more efficiently and regulate swelling, irritation and edema. This method can be effectively used for cancer patients who have undergone a lymph node dissection with the possible outcome of lymphedema.
-                    </p>
-                    <div class="space-y-3">
-                        <p class="text-2xl text-gray-800 font-display">60 minutes - $120</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/assets/services/manual-lymph-drainage.jpg" alt="Manual Lymph Drainage" class="shadow-md">
-                </div>
-            </div>
+        <div>
+          <img src="/assets/services/cupping.jpg" alt="Cupping" class="shadow-md" />
         </div>
-        <ContentRight
-            header="Neuromuscular"
-            text="This technique will relieve you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. This will result in improvement of muscle and joint mobility, as well as balance in the musculoskeletal system."
-            img="neuromuscular"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <ContentLeft
-            header="Prenatal & Postpartum Massage"
-            text="This massage therapy supports the physiological, structural and emotional wellbeing of both mother and fetus. Various forms of massage therapy, including Swedish, deep tissue, neuromuscular, movement, and Oriental-based therapies may be applied throughout pregnancy, as well as during labor and the postpartum period."
-            img="pre-postnatal-massage"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <ContentRight
-            header="Reflexology"
-            text="Reflexology is the application of pressure, stretch and movement to the feet and hands to affect corresponding parts of the body. Reflexologists view the feet and hands as a mirror image of the body. By applying technique, a reflexologist can break up patterns of stress in other parts of the body."
-            img="reflexology"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <ContentLeft
-            header="Sports Massage Therapy"
-            text="Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. The therapist uses an assortment of stroking movements, kneading and pressure in order to increase blood flow and to reach the deeper tissues."
-            img="sports-massage"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-        <ContentRight
-            header="Swedish"
-            text="This method will relax your muscles and increase oxygen flow in your blood. Your stress level will be reduced as you experience the gliding strokes kneading and tapping of the skin. Overall, your nerves will be soothed and your feeling of wellbeing will be enhanced."
-            img="swedish"
-            priceShort="110"
-            priceLong="165"
-            priceLonger="240"
-        />
-    </main>
-    <CTA />
+      </div>
+    </div>
+    <ContentRight
+      header="Hot Stone Therapy"
+      text="This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session. Stone massages are primarily used to alleviate physical pain issues, however, are also used to promote emotional and spiritual wellbeing in practice."
+      img="hot-stone-therapy"
+      priceLong="165"
+    />
+    <div class="bg-[#FCF8ED]">
+      <div
+        class="grid gap-12 justify-center items-start py-12 lg:py-24 lg:grid-cols-2 content-wrapper"
+      >
+        <div class="space-y-8">
+          <h3 class="text-2xl text-gray-800">Manual Lymph Drainage</h3>
+          <p class="max-w-lg text-lg text-gray-700">
+            This technique will allow fluids to flow from the lymphatic system. This will help
+            remove toxins more efficiently and regulate swelling, irritation and edema. This method
+            can be effectively used for cancer patients who have undergone a lymph node dissection
+            with the possible outcome of lymphedema.
+          </p>
+          <div class="space-y-3">
+            <p class="text-2xl text-gray-800 font-display">60 minutes - $120</p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="/assets/services/manual-lymph-drainage.jpg"
+            alt="Manual Lymph Drainage"
+            class="shadow-md"
+          />
+        </div>
+      </div>
+    </div>
+    <ContentRight
+      header="Neuromuscular"
+      text="This technique will relieve you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. This will result in improvement of muscle and joint mobility, as well as balance in the musculoskeletal system."
+      img="neuromuscular"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <ContentLeft
+      header="Prenatal & Postpartum Massage"
+      text="This massage therapy supports the physiological, structural and emotional wellbeing of both mother and fetus. Various forms of massage therapy, including Swedish, deep tissue, neuromuscular, movement, and Oriental-based therapies may be applied throughout pregnancy, as well as during labor and the postpartum period."
+      img="pre-postnatal-massage"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <ContentRight
+      header="Reflexology"
+      text="Reflexology is the application of pressure, stretch and movement to the feet and hands to affect corresponding parts of the body. Reflexologists view the feet and hands as a mirror image of the body. By applying technique, a reflexologist can break up patterns of stress in other parts of the body."
+      img="reflexology"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <ContentLeft
+      header="Sports Massage Therapy"
+      text="Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries. The therapist uses an assortment of stroking movements, kneading and pressure in order to increase blood flow and to reach the deeper tissues."
+      img="sports-massage"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+    <ContentRight
+      header="Swedish"
+      text="This method will relax your muscles and increase oxygen flow in your blood. Your stress level will be reduced as you experience the gliding strokes kneading and tapping of the skin. Overall, your nerves will be soothed and your feeling of wellbeing will be enhanced."
+      img="swedish"
+      priceShort="110"
+      priceLong="165"
+      priceLonger="240"
+    />
+  </main>
+  <CTA />
 </BaseLayout>

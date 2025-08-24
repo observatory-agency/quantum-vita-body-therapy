@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 import Hero from '../components/homepage/Hero.astro';
 import IntroBox from '../components/homepage/IntroBox.astro';
@@ -13,16 +13,17 @@ import SwirlRight from '../components/flourish/SwirlRight.astro';
 ---
 
 <BaseLayout title="Jersey City Massage Therapist">
-    <Hero />
-    <IntroBox />
-    <main class="relative overflow-hidden">
-        <SwirlLeft />
-        <About />
-        <Services />
-        <TestimonyCTA author="Jessica S" alt="Quantum Vita Body Therapy Waiting Room">
-            Hands down the best massage I've ever had. Betsy is a master of her craft and so knowledgeable. The space is super clean with very careful covid precautions. Highly recommend!
-        </TestimonyCTA>
-        <SwirlRight />
-        <CTA />
-    </main>
+  <Hero />
+  <IntroBox />
+  <main class="overflow-hidden relative">
+    <SwirlLeft />
+    <About />
+    <Services />
+    <TestimonyCTA author="Jessica S" alt="Quantum Vita Body Therapy Waiting Room">
+      Hands down the best massage I've ever had. Betsy is a master of her craft and so
+      knowledgeable. The space is super clean with very careful covid precautions. Highly recommend!
+    </TestimonyCTA>
+    <SwirlRight />
+    <CTA />
+  </main>
 </BaseLayout>

@@ -1,16 +1,15 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-import PageHeader from '../components/PageHeader.astro'
-import PageIntro from '../components/PageIntro.astro'
+import PageHeader from '../components/PageHeader.astro';
+import PageIntro from '../components/PageIntro.astro';
 import FAQ from '../components/FAQ.vue';
 import CTA from '../components/CTA.astro';
-
 ---
 
 <BaseLayout title="FAQs">
-    <PageHeader title="Frequently Asked Questions" image="faq" />
-    <PageIntro introTitle="What you need to know for peace of mind" text="" />
-    <FAQ client:load/>
-    <CTA />
+  <PageHeader title="Frequently Asked Questions" image="faq" />
+  <PageIntro introTitle="What you need to know for peace of mind" text="" />
+  <FAQ client:load />
+  <CTA />
 </BaseLayout>

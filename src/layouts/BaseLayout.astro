@@ -1,45 +1,60 @@
 ---
 import '../style/global.css';
-import Header from '../components/Header.vue';
-import Footer from '../components/Footer.vue';
-const {title} = Astro.props;
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+const { title } = Astro.props;
 ---
+
 <html lang="en" class="bg-white">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
 
-        <title>{title} | Quantum Vita Body Therapy</title>
+    <title>{title} | Quantum Vita Body Therapy</title>
 
-        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
 
-        <!-- Primary Meta Tags -->
-        <meta name="description" content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs.">
+    <!-- Primary Meta Tags -->
+    <meta
+      name="description"
+      content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs."
+    />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://quantum-vita-body-therapy.netlify.app/">
-        <meta property="og:title" content="Jersey City Massage Therapist | Quantum Vita Body Therapy">
-        <meta property="og:description" content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs.">
-        <meta property="og:image" content="https://quantumvita.com/assets/homepage-hero.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://quantum-vita-body-therapy.netlify.app/" />
+    <meta property="og:title" content="Jersey City Massage Therapist | Quantum Vita Body Therapy" />
+    <meta
+      property="og:description"
+      content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs."
+    />
+    <meta property="og:image" content="https://quantumvita.com/assets/homepage-hero.jpg" />
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://quantum-vita-body-therapy.netlify.app/">
-        <meta property="twitter:title" content="Jersey City Massage Therapist | Quantum Vita Body Therapy">
-        <meta property="twitter:description" content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs.">
-        <meta property="twitter:image" content="https://quantumvita.com/assets/homepage-hero.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://quantum-vita-body-therapy.netlify.app/" />
+    <meta
+      property="twitter:title"
+      content="Jersey City Massage Therapist | Quantum Vita Body Therapy"
+    />
+    <meta
+      property="twitter:description"
+      content="Quantum Vita Body Therapy is dedicated to providing the best therapeutic massage to each and every client. With specialties ranging from Deep Tissue, Neuromuscular, Therapy, Swedish,Pre-Post Natal, and Manual Lymph Drainage, you will surely find the right massage treatment to suit your specific needs."
+    />
+    <meta property="twitter:image" content="https://quantumvita.com/assets/homepage-hero.jpg" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
 
-        <script defer data-domain="quantumvita.com" src="https://plausible.io/js/plausible.js"></script>
-
-    </head>
-    <body class="relative bg-gray-100">
-        <Header client:only="vue" />
-        <slot />
-        <Footer client:visible />
-    </body>
+    <script defer data-domain="quantumvita.com" src="https://plausible.io/js/plausible.js"></script>
+  </head>
+  <body class="relative bg-gray-100">
+    <Header />
+    <slot />
+    <Footer />
+  </body>
 </html>
