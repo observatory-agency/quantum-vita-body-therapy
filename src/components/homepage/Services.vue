@@ -58,7 +58,7 @@ export default {
           title: 'Cupping Therapy',
           description:
             'Cupping is a type of alternative therapy that involves placing cups on the skin to create suction. This suction is thought to improve the flow of energy in the body and facilitate healing. Cupping increases blood circulation to the area where the cups are placed. This may relieve muscle tension, which can improve overall blood flow and promote cell repair.',
-          priceMini: '60',
+          priceMini: '75',
         },
         {
           title: 'Hot Stone Therapy',
