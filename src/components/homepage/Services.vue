@@ -44,17 +44,17 @@ export default {
           title: 'Anma (Japanese Deep Tissue)',
           description:
             'You will undergo an invigorating massage that reaches the deep layers of muscles and muscle tissue. You will experience a feeling of general vitality and well being.',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Aromatherapy',
           description:
             'Fine oils are applied to the body by the therapist and you will enjoy the relaxing aroma as the effect of the massage and aroma has a positive effect on the body, mind and soul.',
-          priceOne: '115',
-          priceTwo: '170',
-          priceThree: '245'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Cupping Therapy',
@@ -66,57 +66,57 @@ export default {
           title: 'Hot Stone Therapy',
           description:
             'This type of massage involves the use and placement of stones on different points of the body. The direct heat of the hot stones relaxes muscles, allowing the therapist access to deeper muscle layers. This relaxing treatment is only available with a 90-minute massage session.',
-          priceOne: '120',
-          priceTwo: '175',
-          priceThree: '250'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Manual Lymph Drainage (MLD)',
           description:
             'This technique will allow fluids to flow from the lymph system to help remove toxins more efficiently and regulate swelling, irritation and edema. This method can be effectively used for cancer patients who have undergone a lymph node dissection with the possible outcome of lymphodema.',
-          priceOne: '120',
-          priceTwo: '175',
-          priceThree: '250'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Neuromuscular',
           description:
             'This technique will relive you of acute pain via the application of direct deep pressure by the therapist on key trigger points in your body. ',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Prenatal & Postpartum Massage',
           description:
             'This massage therapy supports the physiological, structural and emotional wellbeing of both mother and fetus.',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Reflexology',
           description:
             'Reflexology the application of pressure, stretch and movement to the feet and hands to effect corresponding parts of the body. Reflexologists view the feet and hands as a reflection of the body.',
-          priceOne: '99',
-          priceTwo: '149',
+          priceOne: '130',
+          priceTwo: '190',
           priceThree: '198'
         },
         {
           title: 'Sports Massage Therapy',
           description:
             'Athletes and sports enthusiasts will benefit from the popular sports massage technique. This method will relax muscle tension and may aid in preventing sports related injuries.',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         },
         {
           title: 'Swedish',
           description:
             'This method will relax your muscles and increase oxygen flow in your blood. Your stress level be reduced as you experience the gliding strokes kneading and tapping of the skin.',
-          priceOne: '110',
-          priceTwo: '165',
-          priceThree: '240'
+          priceOne: '130',
+          priceTwo: '190',
+          priceThree: '260'
         }
       ]
     };
